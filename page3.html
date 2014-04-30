@@ -5,30 +5,30 @@
         <meta charset="utf-8" />
         
         <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
-
-        <link rel="stylesheet" href="css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/button.css">
         <title>Magical Backpack</title>
     </head>
 
     <body>
 
+        <h1>Choose your scene</h1>
 
-            <div data-role="header">
-                <h1>
-                    Register
-                </h1>
-            </div><!-- /header -->
 
-            <div data-role="content">
-                Choose your scene
+        <FORM METHOD="LINK" ACTION="desertSetElmt.html">
+            <input type="image" id = "img" src="img/scene1.png" width='100'>desert
+        </FORM>
 
-                <a href="dessertPage.html" data-role="button" "scenario1" class="scenes"> dessert </a>
-                <a href="forestPage.html" data-role="button" "scenario2" class="scenes"> forest </a>
-                <a href="urbanPage.html" data-role="button" "scenario3" class="scenes"> urban city </a>
-            </div>
+        <FORM METHOD="LINK" ACTION="forestPage.html">
+            <input type="image" id = "img" value = "forest" src="img/scene2.png" width='100'>forest
+        </FORM>
 
-            <div class="characters" id = "character1"> anteater </div>
-            <div class="sound" id = "sound1"> Anteater Sound </div>
+        <FORM METHOD="LINK" ACTION="urbanPage.html">
+            <input type="image" id = "img" src="img/scene3.png" width='100'>urban
+        </FORM>
+            
+        <div class="characters" id = "character1"> anteater </div>
+        <div class="sound" id = "sound1"> Anteater Sound </div>
 
         <script type="text/javascript" src="js/index.js"></script>
 

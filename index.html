@@ -5,9 +5,22 @@
         <meta charset="utf-8" />
         
         <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
-
-        <link rel="stylesheet" href="css/style.css">
-            <link href='http://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
+        <style>
+        body 
+        {
+        background-image: url('img/login.png');
+        background-color:#cccccc;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        height:100%;
+        z-index: -1;
+        background-size: 100% ;
+        background-attachment: fixed;
+        background-repeat:no-repeat;
+        }
+        </style>
+        <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/button.css">
         <title>Magical Backpack</title>
     </head>
@@ -15,13 +28,11 @@
     <body>
 
 
-
     <!-- Primary Page Layout            
     <img src="img/login.png" alt="loginbkg" />
 
     ================================================== -->
-        <div class= "homePage">
-            <img src="img/login.png" alt="loginbkg" />
+
             <form action="page2.html">
                 <div class="one-third column">
                         <p><input type="submit" value="Start" class="turquoise-flat-button">
@@ -29,11 +40,12 @@
                 </div>
              </form>
 
-            <script type="text/javascript" src="js/index.js"></script>
 
-        </div>
     <!-- End Document
     ================================================== -->
+
+    <script type="text/javascript" src="js/index.js"></script>
+
     </body>
 
 </html>

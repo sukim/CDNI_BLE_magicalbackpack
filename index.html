@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        
+        <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+
+        <link rel="stylesheet" href="css/style.css">
+        <title>Magical Backpack</title>
+    </head>
+
+    <body>
+
+        <div data-role="page" id="page1">
+            <div data-role="header">
+                    <h1>
+                        Welcome Screen
+                    </h1>
+            </div><!-- /header -->
+
+            
+            <img src="img/login.png" alt="loginbkg" />
+            <a href="page2" data-role="button" id="pg1btn" class="button">Start</a>
+
+        </div><!-- /page1 -->
+
+        <div data-role="page" id="page2">
+            <div data-role="header">
+                <h1>
+                    Register
+                </h1>
+            </div><!-- /header -->
+
+            <div data-role="content">
+                Turn on your backpack
+                 <a href="page2" data-role="button" id="pg2btn" class="button">register</a>
+            </div>
+
+            <div data-role="footer">
+            </div>
+        </div><!-- /page2 -->
+
+        <div data-role="page" id="page3">
+            <div data-role="header">
+                <h1>
+                    Register
+                </h1>
+            </div><!-- /header -->
+
+            <div data-role="content">
+                Choose your scene
+
+                <a href="dessertPage" data-role="button" "scenario1" class="scenes"> dessert </a>
+                <a href="forestPage" data-role="button" "scenario2" class="scenes"> forest </a>
+                <a href="urbanPage" data-role="button" "scenario3" class="scenes"> urban city </a>
+            </div>
+
+            <div data-role="footer">
+            </div>
+        </div><!-- /page3 -->
+
+
+        <div data-role="page" id="dessertPage">
+            <div data-role="header">
+                once upon a time in a dessert..
+            </div><!-- /header -->
+
+            <div data-role="content">
+                Choose your scene
+                 <img src="img/desertScene.png" alt="dessertbkg" />
+                  <div class="characters" id = "character1"> anteater </div>
+                  <div class="sound" id = "sound1"> Anteater Sound </div>
+                <a href="finishPage" data-role="button" "finish" class="scenes"> Done </a>
+            </div>
+                  
+            <div data-role="footer">
+            </div>
+        </div><!-- /dessertPage -->
+
+
+        <a href="startplaying" data-role="button" id="sender" class="myButton">Start Playing!</a>
+
+        <script type="text/javascript" src="js/index.js"></script>
+
+    </body>
+
+</html>
